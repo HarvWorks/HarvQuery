@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HarvQuery</title>
+        <script src = "HarvQuery.js"></script>
+    </head>
+    <body>
+        <button type="button" name="button" id="user">Click Me!</button>
+    </body>
+    <script type="text/javascript">
+    $Harv("user").click(function() { console.log("The button was clicked!") });
+    $Harv("user").hover(function() { console.log("The button was hovered!") });
+    $Harv("user").hover(function() { console.log("The button was hovered1!") }, function() { console.log("The button was dehovered1!") });
+    </script>
+</html>
